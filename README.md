@@ -9,6 +9,7 @@ Catch2 repo from GitHub (https://github.com/catchorg/Catch2)
 is pulled in local project skipList. Doxygen is used for project documentation.
 
 To build project and project documentation, go to root directory:
+<pre>
 $ cd root
 $ mkdir build
 $ cd build
@@ -23,5 +24,5 @@ $ ./test
 To run main and create your own VirtualFileSystem:
 $ cd impl/src
 $ ./vfs
-
+</pre>
 To check valgrind: valgrind --tool=memcheck --leak-check=full --show-leak-kinds=all ./vfs
